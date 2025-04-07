@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-dark: #1e1e2e;
+  --background-sidebar: #252536;
+  --accent-blue: #31c8ff;
+  --text-primary: #f8f8f2;
+  --text-secondary: #a6accd;
+  --border-color: #464866;
+}
+
+html,
+body {
+  @apply bg-[#1e1e2e] text-[#f8f8f2];
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e2e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #464866;
+  border-radius: 3px;
+}
+
+.explorer-item {
+  @apply flex items-center gap-2 px-2 py-1 hover:bg-[#2d2d45] cursor-pointer;
+}
+
+.explorer-item.active {
+  @apply bg-[#2d2d45];
+}
+
+.btn {
+  @apply px-3 py-1 rounded text-sm bg-[#464866] hover:bg-[#5a5c80] transition-colors;
+}
+
+.btn-primary {
+  @apply bg-[#31c8ff] text-black hover:bg-[#60d6ff];
+}
+
+.solidity-keyword {
+  color: #ff79c6;
+}
+
+.solidity-function {
+  color: #50fa7b;
+}
+
+.solidity-type {
+  color: #8be9fd;
+}
+
+.solidity-comment {
+  color: #6272a4;
+}
+
+.solidity-string {
+  color: #f1fa8c;
+}
+
+.tabs-container {
+  @apply flex bg-[#252536] border-b border-[#464866];
+}
+
+.tab {
+  @apply flex items-center gap-2 px-4 py-2 text-sm cursor-pointer hover:bg-[#31394d];
+}
+
+.tab.active {
+  @apply bg-[#1e1e2e] border-t-2 border-t-[#31c8ff];
+}
+
+.panel-header {
+  @apply flex items-center justify-between p-2 bg-[#252536] border-b border-[#464866];
+}
+
+.panel-body {
+  @apply p-2 overflow-auto;
+}
+/* Add this to your globals.css file */
+.monaco-editor .squiggly-error,
+.monaco-editor .squiggly-warning,
+.monaco-editor .squiggly-info {
+  display: none !important;
+}
