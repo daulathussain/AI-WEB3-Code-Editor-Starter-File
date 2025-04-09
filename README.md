@@ -34,7 +34,7 @@ Follow the instructions below to set up the project on your system and install t
 
 ```
   WATCH: Setup & Demo Of Project
-  URL:
+  URL: https://youtu.be/gsWtzl4IZT8?si=_C2mBl7CeO9ZSVmV
 ```
 
 #### CREATE YOUR SOLANA TOKEN
