@@ -26,11 +26,11 @@ Perfect for blockchain developers, AI enthusiasts, and anyone building the next-
 
 Follow the instructions below to set up the project on your system and install the required dependencies.
 
-- [Final Source Code]()
+- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/ai-powered-solidity-smart-contract-auditing-code-editor)
 
 #### Setup Video
 
-- [Final Code Setup video]()
+- [Final Code Setup video](https://youtu.be/gsWtzl4IZT8?si=_C2mBl7CeO9ZSVmV)
 
 ```
   WATCH: Setup & Demo Of Project
@@ -43,8 +43,8 @@ If you don't have a token, check out this project to create and launch your own 
 
 ```
   PROJECT: AI-Powered Solidity Smart Contract Auditing Code Editor
-  WATCH:
-  SOURCE CODE URL:
+  WATCH: https://youtu.be/gsWtzl4IZT8?si=_C2mBl7CeO9ZSVmV
+  SOURCE CODE URL: https://www.theblockchaincoders.com/sourceCode/ai-powered-solidity-smart-contract-auditing-code-editor
 ```
 
 #### PRO BLOCKCHAIN
@@ -96,7 +96,7 @@ Master blockchain development with 80+ hours of content and build industry-ready
 
 ```
   GET: Project Starter File Download
-  URL:
+  URL: https://www.theblockchaincoders.com/sourceCode/ai-powered-solidity-smart-contract-auditing-code-editor
 ```
 
 #### ARNK.COM
